@@ -1,0 +1,18 @@
+[workspace]
+authors = ["shi-yvette <yvetteshek10@gmail.com>"]
+channels = ["conda-forge"]
+name = "smoke"
+platforms = ["win-64", "osx-arm64", "osx-64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pandas = ">=3.1.0,<4"
+numpy = ">=2.5.4,<3"
+matplotlib = ">=3.11.2,<4"
+seaborn = ">=0.13.2,<0.14"
+statsmodels = ">=0.15.0,<0.16"
+ipykernel = ">=7.4.0,<8"
+pre-commit = ">=4.7.0,<5"
